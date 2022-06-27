@@ -1,6 +1,6 @@
 # Large Scale Data Matching Improvement
 
-## Reduce Time Complexity By Binary-Search
+## Reduce Time Complexity By Using Binary-Search
 
 ### Installation
 
