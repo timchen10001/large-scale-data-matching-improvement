@@ -14,8 +14,16 @@
     node origin.js
 ```
 
+- IN: 13.508s
+- OUT: 12.653s
+
+---
+
 ### After Improvement
 
 ```bash
     node index.js
 ```
+
+- IN: 18.967ms
+- OUT: 15.11ms
