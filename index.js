@@ -26,7 +26,7 @@ function solution(bytes) {
 
 function binarySearch(bytes, target) {
     let left = 0;
-    let right = anchors.length - 1;
+    let right = bytes.length - 1;
 
     while (left <= right) {
         const mid = Math.floor((left + right) / 2);
