@@ -14,8 +14,7 @@ function solution(bytes) {
     const ans = {};
     
     anchors.forEach(anchor => {
-        const from = anchor[0];
-        const to = anchor[1];
+        const [from, to] = anchor;
         const criticalIndex = binarySearch(bytes, to);
         const currentSum = accumulateSum(bytes, criticalIndex);
         if (currentSum > 0) ans[from] = currentSum;
@@ -30,7 +29,6 @@ function binarySearch(bytes, target) {
 
     while (left <= right) {
         const mid = Math.floor((left + right) / 2);
-        if (!bytes[mid]) break;
 
         const currentTimeStamp = Number(bytes[mid].timestamp);
 
@@ -63,7 +61,6 @@ let result;
 console.time('IN');
 result = solution(bytesIn);
 console.timeEnd('IN');
-// console.log(result);
 console.time('OUT');
 result = solution(bytesOut);
 console.timeEnd('OUT');
