@@ -68,4 +68,4 @@ console.time('OUT');
 result = solution(bytesOut);
 console.timeEnd('OUT');
 console.log('correction is', result['1656292200000'] === 1159685369428);
-// console.log(result);
+console.log(Object.keys(result).length);
