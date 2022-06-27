@@ -1,0 +1,24 @@
+{
+  "name": "large-scale-data-matching-improvement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "^2.29.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timchen10001/large-scale-data-matching-improvement.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timchen10001/large-scale-data-matching-improvement/issues"
+  },
+  "homepage": "https://github.com/timchen10001/large-scale-data-matching-improvement#readme"
+}
